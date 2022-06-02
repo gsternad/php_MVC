@@ -1,0 +1,20 @@
+{
+  "name": "agiledrop/php-masterclass",
+  "description": "Agiledrop PHP Masterclass",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "nate",
+      "email": "nate.laznik@agiledrop.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    }
+  },
+  "require": {
+    "twig/twig": "^3.4"
+  }
+}
